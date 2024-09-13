@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 383px;
+    border: 4px solid #000000;
+    border-radius: 20px;
+    /* margin-left: 0.5px; */
+}
+
+
+.main-header {
+    width: 375px; 
+    height:67px;
+    position: relative;
+    border-bottom: 2px solid lightblue;
+}
+
+.oldagram {
+    width: 127px;
+    height: 33.02px;
+    position: absolute;
+    top: 16px;
+    bottom: 15px;
+    left: 4px;
+}
+
+.avater-me {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    position: absolute;
+    top: 16px;
+    bottom: 325px;
+    right: 4px;
+}
+
+.article {
+    width: 375px;
+    height: 545px;
+    top: 67px;
+    bottom: 0px;
+    margin-top: 30px;
+    /* border: 2px solid;  */
+}
+
+.article-header {
+    width: 350px;
+    height: 34px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Vincent-van-Gogh {
+    width: 34px;
+    height: 34px;
+    top: 10px;
+    bottom: 8px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+.clas-h1 {
+    width: 307px;
+    height: 16px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    top: 11px;
+    bottom: 51;
+}
+
+.clas-h3 {
+    margin-top: 4px;
+    width: 307px;
+    height: 15px;
+    top: 27px;
+    bottom: 51px;
+    font-size: 12px; 
+    font-weight: regular;
+    color: #000000;
+}
+
+.post-courbet {
+    width: 375px;
+    height: 375px;
+    top: 55px;
+    bottom: 0px;
+    margin-top: 15px;
+}
+
+.section-2 {
+    width: 346px;
+    height: 78px;
+    color: #000000;
+    top: 451px;
+    bottom: 10px;
+    margin-top: 15px;
+    /* border: 2px solid; */
+}
+
+.icons {
+    width: 104.34px;
+    height: 22.13px;
+    top: 451px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid; */
+}
+
+.icon-like {
+    width: 23.3px;
+    height: 22.13px;
+    top: 451px;
+    bottom: 10px;
+}
+
+.icon-share {
+    width: 22.38px;
+    height: 18.65px;
+    top: 454.08px;
+    bottom: 91.95px;
+}
+
+.icon-comment {
+    width: 18.65px;
+    height: 18.65px;
+    top: 452.68px;
+    bottom: 53.3px;
+}
+
+.icon-like:hover,
+.icon-share:hover,
+.icon-comment:hover{
+    opacity: 0.5;
+}
+
+.like-count {
+    width: 343;
+    height: 16px;
+    top: 485px;
+    bottom: 13px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 11px;
+}
+
+.username-caption {
+    width: 343px;
+    height: 16px;
+    top: 513px;
+    bottom: 13px;
+    font-size: 13px;
+    font-weight: mixed;
+    margin-left: 11px;
+}
